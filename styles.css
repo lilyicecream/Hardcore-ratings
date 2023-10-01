@@ -3,4 +3,8 @@
   color: red;
 }
 
-<h1 style="color:blue;">Welcome to MuRateMe!</h1>
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</div>
