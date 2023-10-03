@@ -5,6 +5,25 @@ html {
   overflow-x: hidden;
 }
 
+h1 {
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: blue;
+  font-family: 'New Rocker', cursive;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Lexend', 'Cormorant Garamond', serif;
+}
+
+h3 {
+  text-align: center;
+  font-family: 'New Rocker', cursive;
+  color: pink;
+}
 
 nav {
   padding: 0px;
@@ -38,32 +57,26 @@ nav li {
   font-size: 18px;
 }
 
-
-
-
-h1 {
-  color: blue;
-}
-
-h3 {
-  text-align: center;
-  color: pink;
-}
-
-
-
-.flexcontainer {
-  flex-direction: column;
-
-}
-
-
 .link1 {
   color: greenyellow;
 }
 
 .link2 {
   color: orange;
+}
+
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.flexcontainer img {
+  width: 23%;
+  height: 280px;
 }
 
 #info-cont {
@@ -90,4 +103,13 @@ h3 {
   padding: 10px;
   font-family: 'Lexend', 'Cormorant Garamond', serif;
   font-size: 18px;
+}
+
+iframe {
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 55%;
+  height: 300px;
+  margin: auto;
 }
