@@ -2,11 +2,21 @@
 h1 {
   color: blue;
 }
-h2 {
-  color: red;
+
+h3 {
+  text-align: center;
+  color: pink;
 }
 
 
 .flexcontainer {
   flex-direction: column;
+}
+
+
+.link1 {
+  color: greenyellow;
+}
+.link2 {
+  color: orange;
 }
