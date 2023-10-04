@@ -58,9 +58,8 @@ nav li {
 .flexcontainer {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-evenly;
-
+  flex-wrap: nowrap;
 }
 
 
