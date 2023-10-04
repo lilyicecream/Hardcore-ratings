@@ -63,10 +63,7 @@ nav li {
 
 }
 
-.responsive-image {
-  width: 23%;
-  height: 280px;
-}
+
 
 #info-cont {
   display: flex;
@@ -110,10 +107,6 @@ iframe {
     align-content: center;
   }
 
-  .responsive-image {
-    width: 80%;
-    height: 20%;
-  }
 
   h1 {
     font-size: 30px;
