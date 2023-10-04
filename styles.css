@@ -63,7 +63,7 @@ nav li {
 
 }
 
-.flexcontainer img {
+.responsive-image {
   width: 23%;
   height: 280px;
 }
@@ -110,7 +110,7 @@ iframe {
     align-content: center;
   }
 
-  .flexcontainer img {
+  .responsive-image {
     width: 80%;
     height: 20%;
   }
